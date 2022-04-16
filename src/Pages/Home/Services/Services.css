@@ -1,0 +1,26 @@
+.services {
+  width: 97%;
+  margin: auto;
+}
+.title {
+  font-size: 34px;
+  font-weight: 600;
+  text-align: center;
+}
+.services-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+
+/* Responsive design for mobile and tablates */
+@media screen and (max-width: 576px) {
+  .services-container {
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .services-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

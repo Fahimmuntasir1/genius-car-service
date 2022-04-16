@@ -1,0 +1,8 @@
+.Login-component {
+  background: url(../../../images/notFound.jpg) no-repeat center center;
+  background-size: cover;
+  height: 600px;
+}
+.notFound-title {
+  font-size: 85px;
+}

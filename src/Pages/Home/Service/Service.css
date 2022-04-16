@@ -1,0 +1,21 @@
+.service-container {
+  border-left: 1px solid rgba(89, 89, 89, 0.145);
+  border-right: 1px solid rgba(89, 89, 89, 0.145);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.service-container button {
+  padding: 15px;
+  background-color: #0578dc;
+  border: none;
+  color: aliceblue;
+  font-size: 17px;
+  transition: 0.7s;
+}
+.service-container button:hover {
+  background-image: linear-gradient(to right, #ffffffb6, #0578dc);
+}
+.service-details {
+  margin: 0 5px;
+}
